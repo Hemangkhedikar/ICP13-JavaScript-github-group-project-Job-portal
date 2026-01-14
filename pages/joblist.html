@@ -6,3 +6,28 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+
+    <header class="job-header">
+    <div class="header-content">
+        <h1>Find Your <span>Dream Job</span></h1>
+        <p>Explore jobs & internships by category and skills</p>
+
+        <div class="header-controls">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search job title or skill..."
+                onkeyup="searchJobs()"
+            >
+
+            <select id="filter" onchange="filterJobs()">
+                <option value="all">All Categories</option>
+                <option value="fullstack">Full Stack</option>
+                <option value="ai">AI</option>
+                <option value="ml">ML</option>
+                <option value="cyber">Cyber Security</option>
+                <option value="internship">Internship</option>
+            </select>
+        </div>
+    </div>
+</header>
