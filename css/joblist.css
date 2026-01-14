@@ -92,3 +92,27 @@ body {
     box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
+.tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+.fullstack { background: #f8fafc; }
+.ai { background:#f8fafc ; }
+.ml { background:#f8fafc ; }
+.cyber { background: #f8fafc; }
+
+
+.job-card h3 {
+    margin-top: 20px;
+}
+
+.job-card p {
+    color: gray;
+    font-size: 14px;
+}
