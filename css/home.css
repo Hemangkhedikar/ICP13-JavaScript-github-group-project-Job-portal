@@ -390,6 +390,9 @@ a{
     width: 18px;
     margin-right: 5px;
 }
+#showMoreLink{
+    display: none;
+}
 
 /* ------------------Home page responsive------------------ */
  
@@ -430,3 +433,44 @@ a{
 }
 
   }
+
+  /* Tablet */
+@media (min-width: 617px) and (max-width: 972px){
+.container{
+    padding: 15px 3%;
+}
+.ls-content , .rs-content{
+    flex-basis: 100%;
+    position: relative;
+    top: unset;
+}
+.middle-content{
+    flex-basis: 100%;
+}
+.post-stats div{
+    margin: 2px 0;
+}
+.post-activity{
+     margin-left: 10px;
+}
+.post-activity-reaction span{
+    font-size: 15px;
+}
+.post-activity-reaction img{
+    margin-right: 5px;
+}
+#showMoreLink{
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 14px;
+    cursor: pointer;
+}
+.recent-activities{
+    display: none;
+}
+.recent-activities.open-activity{
+    display: block;
+}
+
+ }
