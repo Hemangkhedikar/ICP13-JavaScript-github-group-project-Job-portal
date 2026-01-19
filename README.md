@@ -55,3 +55,14 @@ It allows users to create profiles, post content, react to posts, explore job an
 
 ---
 
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- LocalStorage  
+- FileReader API  
+- DOM Manipulation  
+- setTimeout / clearTimeout  
+
+---
