@@ -186,3 +186,27 @@ button {
     font-size: 13px;
   }
 }
+/* -------------Navbar responsive---------- */
+    /* Mobile */
+ @media (max-width: 616px){
+     
+.navbar-right ul li a span{
+    display: none;
+}   
+.navbar-right ul li a {
+    padding-right: 0;
+    margin: 5px;
+}
+.logo img{
+    width: 150px;
+}
+ }
+     /* Tablet */
+ @media (max-width: 897px){
+     
+.navbar-right ul li a {
+    padding-right: 0;
+    margin: 5px;
+    font-size: 15px;
+}
+ }
